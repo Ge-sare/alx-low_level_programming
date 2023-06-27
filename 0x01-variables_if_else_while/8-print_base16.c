@@ -1,41 +1,22 @@
 #include <stdio.h>
-
-
 /**
-
- * main - Prints numbers between 0 to 9 and letters between a to f.
-
- *
-
- * Return: Always 0 (Success)
-
+ * main - Entry point
+ * Description: 'Print numbers o base 16'
+ * Return: always 0
  */
-
 int main(void)
-
 {
+	int n;
+	int m;
 
-        int i;
-
-
-        for (i = 48; i < 58; i++)
-
-        {
-
-                putchar(i);
-
-        }
-
-        for (i = 97; i < 103; i++)
-
-        {
-
-                putchar(i);
-
-        }
-
-        putchar('\n');
-
-        return (0);
-
+	for (n = 48; n <= 57; n++)
+	{
+		putchar(n);
+	}
+	for (m = 97; m <= 102; m++)
+	{
+		putchar(m);
+	}
+	putchar('\n');
+	return (0);
 }
